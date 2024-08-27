@@ -1,4 +1,16 @@
 import streamlit as st
+from st_social_media_links import SocialMediaIcons
+
+social_media_links = [
+    "https://www.facebook.com/thebiowayonline",
+    "https://www.youtube.com/c/VishalBhoirTheBioway",
+    "https://www.instagram.com/the_bioway/",
+    "https://twitter.com/The_Bioway",
+    "https://github.com/vishalbhoir18",
+]
+social_media_icons = SocialMediaIcons(social_media_links)
+
+social_media_icons.render()
 
 def calculate_weight(weight, planet):
     if planet == "Mercury":
@@ -53,18 +65,4 @@ elif planet == "Pluto [dwarf planet]":
 
 st.write("Note: The weight has been calculated based on the gravitational pull on each planet/moon relative to Earth.")
 st.write("_Reference: https://www.exploratorium.edu_")
-st.write("The App is developed by Vishal Bhoir visit for more info: _https://linktr.ee/thebioway_")
-
-from st_social_media_links import SocialMediaIcons
-
-social_media_links = [
-    "https://www.facebook.com/thebiowayonline",
-    "https://www.youtube.com/c/VishalBhoirTheBioway",
-    "https://www.instagram.com/the_bioway/",
-    "https://twitter.com/The_Bioway",
-    "https://github.com/vishalbhoir18",
-]
-
-social_media_icons = SocialMediaIcons(social_media_links)
-
-social_media_icons.render()
+st.write("The App is developed by Vishal Bhoir visit: _https://linktr.ee/thebioway_")
