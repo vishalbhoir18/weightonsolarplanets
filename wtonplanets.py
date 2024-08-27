@@ -53,4 +53,4 @@ elif planet == "Pluto [dwarf planet]":
 
 st.write("Note: The weight has been calculated based on the gravitational pull on each planet/moon relative to Earth.")
 st.write("_Reference: https://www.exploratorium.edu_")
-st.write("The App is developed by VISHAL BHOIR visit: _https://linktr.ee/thebioway_")
+st.write("''The App is developed by VISHAL BHOIR visit: _https://linktr.ee/thebioway_''")
