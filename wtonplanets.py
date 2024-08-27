@@ -1,4 +1,10 @@
 import streamlit as st
+from PIL import Image
+
+# Logo image
+image = Image.open('Solar Planets.png')
+
+st.image(image, use_column_width=True)
 
 def calculate_weight(weight, planet):
     if planet == "Mercury":
